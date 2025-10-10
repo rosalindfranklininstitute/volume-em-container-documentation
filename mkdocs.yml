@@ -39,6 +39,9 @@ copyright: The Rosalind Franklin Institute © CC BY-SA 4.0
 nav:
   - Introduction:
     - Overview: intro/overview.md
+    - Why Containers: intro/containers.md
+  - Software:
+    - Napari with Clemreg and Emapanda: software/napari.md
 
 site_url: https://rosalindfranklininstitute.github.io/volume-em-container-documentation/intro/overview/
 repo_url: https://github.com/rosalindfranklininstitute/volume-em-container-documentation
