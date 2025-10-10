@@ -1,5 +1,5 @@
 # Volume EM Container Documentation
-Live Documentation: [https://rosalindfranklininstitute.github.io/volume-em-container-documentation/intro/overview/](https://rosalindfranklininstitute.github.io/volume-em-container-documentation/intro/overview/)
+Live documentation: [https://rosalindfranklininstitute.github.io/volume-em-container-documentation/intro/overview/](https://rosalindfranklininstitute.github.io/volume-em-container-documentation/intro/overview/)
 ## About
 A user guide for the Rosalind Franklin Institute's volume electron microscopy software containers
 
