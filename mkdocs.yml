@@ -1,0 +1,41 @@
+site_name: Volume EM Containers
+theme:
+  name: material
+  palette:
+    primary: cyan
+    accent: teal
+  logo: assets/images/logo.png
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.footer
+    - navigation.indexes
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - attr_list
+  - md_in_html      
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - footnotes
+plugins:
+  - social
+extra:
+  generator: true
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/rosalindfranklininstitute
+      name: GitHub
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/rosalindfranklininst/
+      name: Instagram
+copyright: The Rosalind Franklin Institute © CC BY-SA 4.0
+nav:
+  - Introduction:
+    - Overview: intro/overview.md
