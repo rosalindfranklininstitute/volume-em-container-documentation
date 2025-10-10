@@ -39,3 +39,6 @@ copyright: The Rosalind Franklin Institute © CC BY-SA 4.0
 nav:
   - Introduction:
     - Overview: intro/overview.md
+
+repo_url: https://github.com/rosalindfranklininstitute/volume-em-container-documentation
+edit_url: blob/main/docs
