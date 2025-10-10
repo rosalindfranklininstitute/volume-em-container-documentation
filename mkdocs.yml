@@ -40,5 +40,8 @@ nav:
   - Introduction:
     - Overview: intro/overview.md
 
+site_url: https://rosalindfranklininstitute.github.io/volume-em-container-documentation/intro/overview/
 repo_url: https://github.com/rosalindfranklininstitute/volume-em-container-documentation
 edit_url: blob/main/docs
+site_description: "User guide for the Rosalind Franklin Institute's volume electron microscopy software containers"
+site_author: "The Rosalind Franklin Institute"
