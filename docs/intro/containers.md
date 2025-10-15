@@ -150,6 +150,12 @@ number). This does require the [NVIDIA Container
 Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/index.html)
 to be installed. 
 
+!!! tip
+    Use the `--rm` option to `docker run` to have Docker automatically remove
+    the container filesystem and resources after the contain shutdown.
+    Alternatively run `docker container prune` periodically to clean-up inactive
+    containers.
+
 ## Bind mounts 
 To work with your data, containers need access to files on your host system.
 Apptainer provides access to common locations including `home/$USER`, `/tmp`
