@@ -86,9 +86,9 @@ Linux, Windows and MacOS.
 
 !!! tip
     Apptainer is provided for RFI users via a module share system, where
-    Apptainer is loaded by running `module load apptainer`. See the [RFI AI
-    Docs](https://aidocs.zaphod.rfi.ac.uk/Software/module-share/) for further
-    information.
+    Apptainer is loaded by running `module load apptainer` (RFI users may
+    view the [AI Docs](https://aidocs.zaphod.rfi.ac.uk/Software/module-share/) for further
+    information). Other services may make Apptainer available by default.
 
 #### Usage
 The two most common commands are `pull`, to download a container image from a
