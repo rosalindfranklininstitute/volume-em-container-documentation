@@ -66,14 +66,14 @@ open individual TIFF images.
 
 Enter `3dmod` in the container terminal window to start the application:
 
-![3dmod Startup](image/imod-3dmod-startup.png "3dmod Startup Window")
+![3dmod Startup](images/imod-3dmod-startup.png "3dmod Startup Window")
 
 For a test example, you can download the sample dataset provided the University
 of Colorado: [imod_data.tar.gz](https://bio3d.colorado.edu/imod/files/imod_data.tar.gz).
 Unzip this and use `Select` in the 3dmod image to select one of the example
 `.mrc` files. Pressing `OK` launches the main 3dmod program.
 
-![3dmod Example](imod-3dmod-golgi.png "3dmod Example")
+![3dmod Example](images/imod-3dmod-golgi.png "3dmod Example")
 
 The information window on the left is the main point of control and information
 when working with model data. The image display on the right can be panned 
