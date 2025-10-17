@@ -181,3 +181,7 @@ and the CLEM-Reg[^1], Empanada[^2] publications.
 
 [^2]: Conrad, Ryan et al. [Cell Systems, Volume 14, Issue 1, 58 - 71.e5](https://www.cell.com/cell-systems/fulltext/S2405-4712(22)00494-X).
 
+## 📚 Further reading
+
+- [Napari Website](https://napari.org/stable/community/index.html)
+- [Empanada Website](https://empanada.readthedocs.io/en/latest/index.html)
