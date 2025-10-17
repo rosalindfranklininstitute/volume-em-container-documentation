@@ -25,9 +25,9 @@ hardware or macOS may not be able to utilise GPU processing.
 Containers have been created for the following software:
 
 - [Napari with Clemreg and Empanada Plugins](../software/napari.md)
-- Fiji with MoBie 
-- IMOD
-- MiB2
+- [Fiji with MoBie](../software/fiji.md)
+- [IMOD](../software/imod.md)
+- [MiB2](../mib2.md)
 
 This documentation currently covers the Napari container, with
 details of the others to be added in future updates.
