@@ -8,8 +8,8 @@ project, which aims to support the community by unifying and improving access to
 important volume EM software. 
 
 ## Quickstart
-New to containerisation? We recommend reading our [*Why Containers?*](containers.md)
-page which includes an introduction to the popular container enginees Apptainer
+New to containerisation? We recommend reading our [*Using Containers*](containers.md)
+page which includes an introduction to the popular container engines Apptainer
 and Docker. 
 
 

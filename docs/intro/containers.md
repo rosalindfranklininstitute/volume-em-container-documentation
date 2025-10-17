@@ -1,5 +1,5 @@
-# Why Containers?
-## Simple Sandboxed Software
+# Using Containers
+## Why Containers? Simple Sandboxed Software
 A container image is a bundle of software that includes all the code and
 dependencies needed to run an application.  An image can be used by a program
 called a container runtime to run the application in an isolated environment,
