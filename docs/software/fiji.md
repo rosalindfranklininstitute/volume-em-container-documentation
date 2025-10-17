@@ -35,7 +35,7 @@ In each case, if you want to access files outside of the default directories
 made available by Apptainer or Docker, add `--bind /path/to/files:/mnt` (Apptainer) or
 `-v /path/to/files:/mnt` (Docker). Replace `/path/to/files` with
 a location on your machine;
- `mnt` is where those files will appear inside the container (for example,
+ `/mnt` is where those files will appear inside the container (for example,
 when using the Fiji file picker `File>Open...`).
 
 !!! warning
@@ -125,7 +125,7 @@ the Fiji[^3] and MoBIE[^4] publications.
 [^3]: Schindelin, J. et al., [Nature Methods, 9, 676–682 (2012)](https://www.nature.com/articles/nmeth.2019).
 [^4]: Pape, C. et al., [Nature Methods 20, 475-476 (2023)](https://www.nature.com/articles/s41592-023-01776-4).
 
-## 📚 Further reading
+## 📚 Useful Links
 
 - [Fiji Website](https://fiji.sc/) and [Community Forums](https://forum.image.sc/tag/fiji)
 - [MoBIE Tutorials](https://mobie.github.io/)
