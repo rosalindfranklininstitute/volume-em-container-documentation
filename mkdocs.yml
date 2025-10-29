@@ -43,8 +43,8 @@ nav:
   - Software:
     - Napari with Clemreg and Emapanda: software/napari.md
     - Fiji with MoBIE: software/fiji.md
-    #- IMOD: software/imod.md
-    #- MiB2: software/mib2.md
+    - IMOD: software/imod.md
+    - MiB2: software/mib2.md
 
 site_url: https://rosalindfranklininstitute.github.io/volume-em-container-documentation/intro/overview/
 repo_url: https://github.com/rosalindfranklininstitute/volume-em-container-documentation
