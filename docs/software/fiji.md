@@ -7,7 +7,7 @@ includes the [MoBIE](https://mobie.github.io/) (Multimodal Big Image Data Explor
 designed for sharing and interactively browsing large, multi-modal images and
 associated tabular data.
 
-## Using Fiji and  MoBIE
+## Using Fiji and MoBIE
 **Prerequisites**:
  Fiji is a graphical application that requires a local or remote display server
 such as X11 to render its interface. It does not require a GPU.
@@ -105,9 +105,9 @@ that MoBIE reads.
 ## Troubleshooting and Support
 ### Getting help
 If you encounter problems with Fiji or MoBIE, you can
-[Create an issue](https://github.com/rosalindfranklininstitute/fiji-mobie/issues/new)
+[create an issue](https://github.com/rosalindfranklininstitute/fiji-mobie/issues/new)
 on the container GitHub repository. Please share as much information 
-as you can regarding your host system (operating system, container runtime),
+as you can regarding your host system (e.g., operating system, container runtime),
 the commands you are trying to run as well as any error messages.
 
 ## Version and license information
@@ -120,10 +120,10 @@ The container is distributed under an [Apache 2.0 License](https://github.com/ro
 If you are using this software in your work, consider giving attribution to
 the Fiji[^3] and MoBIE[^4] publications.
 
-[^1]: Cameron Nowell, [Fiji Manual Resources v6.5 (2023)](https://bridges.monash.edu/articles/dataset/Fiji_Manual_Resources_v6_5_/21902043?file=38851446).
-[^2]: Vergara, H. M. et al., [Cell 184 (18), 4819-4837.e22](https://doi.org/10.1016/j.cell.2021.07.017).
-[^3]: Schindelin, J. et al., [Nature Methods, 9, 676–682 (2012)](https://www.nature.com/articles/nmeth.2019).
-[^4]: Pape, C. et al., [Nature Methods 20, 475-476 (2023)](https://www.nature.com/articles/s41592-023-01776-4).
+[^1]: Cameron Nowell, [Fiji Manual Resources v6.5 (2023)](https://bridges.monash.edu/articles/dataset/Fiji_Manual_Resources_v6_5_/21902043?file=38851446)
+[^2]: Vergara, H. M. et al., [Cell 184 (18), 4819-4837.e22](https://doi.org/10.1016/j.cell.2021.07.017)
+[^3]: Schindelin, J. et al., [Nature Methods, 9, 676–682 (2012)](https://www.nature.com/articles/nmeth.2019)
+[^4]: Pape, C. et al., [Nature Methods 20, 475-476 (2023)](https://www.nature.com/articles/s41592-023-01776-4)
 
 ## 📚 Useful Links
 

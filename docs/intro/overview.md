@@ -27,7 +27,7 @@ Containers have been created for the following software:
 - [Napari with Clemreg and Empanada Plugins](../software/napari.md)
 - [Fiji with MoBie](../software/fiji.md)
 - [IMOD](../software/imod.md)
-- [MiB2](../software/mib2.md)
+- [MIB2](../software/mib2.md)
 
 This documentation currently covers the Napari container, with
 details of the others to be added in future updates.

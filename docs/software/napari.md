@@ -32,8 +32,7 @@ and requires display capabilities to run interactively.
     use these plugins without one.
 
 ### Apptainer
-First, ensure Apptainer is available on your system (`module load apptainer` for
-RFI users). The napari-clemreg-empanada container
+First, ensure Apptainer is available on your system. The napari-clemreg-empanada container
 may then be started by opening a terminal and running a command of the form: 
 ```
 apptainer run --nv \
@@ -98,7 +97,7 @@ allow you to step through additional axes (e.g. third dimension or time).
 *The Napari Image Pane with [Sample Data](https://zenodo.org/records/7936982)
 from the CLEM-Reg Paper[^1].*
 
-[^1]: Krentzel, D. et al., [Nature Methods 22, 1923–1934 (2025)](https://www.nature.com/articles/s41592-025-02794-0).
+[^1]: Krentzel, D. et al., [Nature Methods 22, 1923–1934 (2025)](https://www.nature.com/articles/s41592-025-02794-0)
 
 The CLEM-Reg and Empanada plugins may be accessed via the *Plugins* menu.
 Selecting a function under either plugin will open a new panel to the right-hand
@@ -158,9 +157,9 @@ GPU, you can start an interactive Shell in the containers with
 
 ### Getting help
 If you are still experiencing issues, you can 
-[Create a new issue](https://github.com/rosalindfranklininstitute/napari-clemreg-empanada/issues/new)
+[create a new issue](https://github.com/rosalindfranklininstitute/napari-clemreg-empanada/issues/new)
 on the container GitHub repository. Please share as much information 
-as you can regarding your host system (operating system, container runtime),
+as you can regarding your host system (e.g., operating system, container runtime),
 the commands you are trying to run as well as any error messages.
 
  
@@ -179,7 +178,7 @@ If you are using this software in your work, considering
 giving attribution to [Napari](https://github.com/napari/napari/blob/main/CITATION.cff)
 and the CLEM-Reg[^1], Empanada[^2] publications.
 
-[^2]: Conrad, Ryan et al. [Cell Systems, Volume 14, Issue 1, 58 - 71.e5](https://www.cell.com/cell-systems/fulltext/S2405-4712(22)00494-X).
+[^2]: Conrad, Ryan et al. [Cell Systems, Volume 14, Issue 1, 58 - 71.e5](https://www.cell.com/cell-systems/fulltext/S2405-4712(22)00494-X)
 
 ## 📚 Useful Links
 

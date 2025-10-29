@@ -93,9 +93,9 @@ We are currently working with users to determine potential issues with the IMOD 
 and steps to resolve them.
 
 If you encounter  problems with the IMOD container,
-[Create an issue](https://github.com/rosalindfranklininstitute/imod-container/issues/new)
+[create an issue](https://github.com/rosalindfranklininstitute/imod-container/issues/new)
 on the container GitHub repository. Please share as much information 
-as you can regarding your host system (operating system, container runtime),
+as you can regarding your host system (e.g., operating system, container runtime),
 the commands you are trying to run as well as any error messages.
 
 ## Version and license information
