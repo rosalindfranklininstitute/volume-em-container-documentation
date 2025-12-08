@@ -79,8 +79,9 @@ the Licenses in the [mib-container repository README](https://github.com/rosalin
 Napari 0.4.18 with CLEM-Reg 0.2.1 and Empanada 1.2. 
 
 #### Repository URLs
-[Docker file (GitHub)](https://github.com/rosalindfranklininstitute/napari-clemreg-empanada)
-[Container Image (Quay.io)](https://quay.io/repository/rosalindfranklininstitute/napari-clemreg-empanada)
+
+- [Docker file (GitHub)](https://github.com/rosalindfranklininstitute/napari-clemreg-empanada)
+- [Container Image (Quay.io)](https://quay.io/repository/rosalindfranklininstitute/napari-clemreg-empanada)
 
 #### Apptainer
 ```
@@ -110,8 +111,9 @@ CLEM-Reg.
 Fiji 2.16.1 (ImageJ2 2.16.0/1.54p) with MoBIE 4.0.3.
 
 #### Repository URLs
-[Docker file (GitHub)](https://github.com/rosalindfranklininstitute/fiji-mobie)
-[Container Image (Quay.io)](https://quay.io/repository/rosalindfranklininstitute/fiji-mobie)
+
+- [Docker file (GitHub)](https://github.com/rosalindfranklininstitute/fiji-mobie)
+- [Container Image (Quay.io)](https://quay.io/repository/rosalindfranklininstitute/fiji-mobie)
 
 #### Apptainer
 ```
@@ -139,8 +141,9 @@ from Monash University.
 IMOD 5.1.2 with CUDA 12.
 
 #### Repository URLs
-[Docker file (GitHub)](https://github.com/rosalindfranklininstitute/imod-container)
-[Container Image (Quay.io)](https://quay.io/repository/rosalindfranklininstitute/imod-container)
+
+- [Docker file (GitHub)](https://github.com/rosalindfranklininstitute/imod-container)
+- [Container Image (Quay.io)](https://quay.io/repository/rosalindfranklininstitute/imod-container)
 
 #### Apptainer
 ```
@@ -170,8 +173,9 @@ the University of Colorado.
 MIB 2.9102 (2025-05-08).
 
 #### Repository URLs
-[Docker file (GitHub)](https://github.com/rosalindfranklininstitute/mib-container)
-[Container Image (Quay.io)](https://quay.io/repository/rosalindfranklininstitute/mib-container)
+
+- [Docker file (GitHub)](https://github.com/rosalindfranklininstitute/mib-container)
+- [Container Image (Quay.io)](https://quay.io/repository/rosalindfranklininstitute/mib-container)
 
 #### Apptainer
 ```
