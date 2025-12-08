@@ -1,15 +1,16 @@
 # Administrator Guide to RFI Volume EM Containers
 
 These are setup notes for system administrators, RSEs and other
-technicals looking to provide the containerised software to their users. 
+IT technicians looking to provide the containerised software to their users. 
 
 ## Requirements
-The main requirements are a working container runtime and display
-server. Each software container expects user interaction via a GUI, although
-IMOD also provides a CLI.  
-Second, except for Fiji, we recommend a NVIDIA GPU with current drivers, CUDA, and (Docker) 
-NVIDIA container runtime. 
-Containers run without GPU but performance degrades significantly and some features may fail. If you do not have an NVIDIA GPU or do not wish to use it, omit the `--gpu`/`--nv` flags in the Apptainer/Docker commands below.
+The main requirements are a working container runtime and display server. Each
+software container expects user interaction via a GUI, although IMOD also
+provides a CLI.  Second, except for Fiji, we recommend a NVIDIA GPU with current
+drivers, CUDA, and (Docker) NVIDIA container runtime.  Containers run without
+GPU but performance degrades significantly and some features may fail. If you do
+not have an NVIDIA GPU or do not wish to use it, omit the `--gpu`/`--nv` flags
+in the Apptainer/Docker commands below.
 
 Each container has been tested using both Docker and Apptainer, and commands for
 both platforms are provided below, although we recommend Apptainer for multi-user
