@@ -7,18 +7,20 @@ This work is part of the [Collaborative Computational Project for EM](https://ww
 project, which aims to support the community by unifying and improving access to
 important volume EM software. 
 
-
-
 ## Quickstart
 If you are completely new to EM software or have little computing
 experience in general, you may like to view our
 [Using Volume EM Containers Introductory Slides](assets/volume-em-container-introduction.pdf)
-(relevant in particular if you are taking part in a DAaaS training session).
-Otherwise, if you are new to containerisation or need a refresher
+(particularly relevant if you are taking part in a DAaaS training session).
+Otherwise, if you are new to containerisation or need a refresher,
 we recommend reading our [*Using Containers*](containers.md)
-page which includes an introduction to the popular container engines Apptainer
+page, which includes an introduction to the popular container engines Apptainer
 and Docker. 
 
+## System Administrators 
+For system administrators, research software engineers and other IT technicians,
+there is a [one-page setup guide](administrator-guide.md) for running the 
+containerised software.
 
 ## Requirements
 Running the containers requires a working [Apptainer or Docker
