@@ -12,7 +12,7 @@ If you are completely new to EM software or have little computing
 experience in general, you may like to view our
 [Using Volume EM Containers Introductory Slides](assets/volume-em-container-introduction.pdf)
 (particularly relevant if you are taking part in a DAaaS training session).
-Otherwise, if you are new to containerisation or need a refresher,
+Otherwise, if you are unfamiliar with containerisation or need a refresher,
 we recommend reading our [*Using Containers*](containers.md)
 page, which includes an introduction to the popular container engines Apptainer
 and Docker. 

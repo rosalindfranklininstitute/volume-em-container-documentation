@@ -40,6 +40,7 @@ nav:
   - Introduction:
     - Overview: intro/overview.md
     - Using Containers: intro/containers.md
+    - For System Administrators: intro/administrator-guide.md
   - Software:
     - Napari with Clemreg and Emapanda: software/napari.md
     - Fiji with MoBIE: software/fiji.md
