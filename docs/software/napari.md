@@ -35,19 +35,17 @@ and requires display capabilities to run interactively.
 First, ensure Apptainer is available on your system. The napari-clemreg-empanada container
 may then be started by opening a terminal and running a command of the form: 
 ```
-apptainer run --nv \
-  --bind /path/to/data:/data \
-  docker://quay.io/rosalindfranklininstitute/napari-clemreg-empanada:latest
+apptainer run --nv docker://quay.io/rosalindfranklininstitute/napari-clemreg-empanada:latest
 ```
 Arguments:
 
 - `--nv` enables NVIDIA GPU support on Windows and Linux. If you don't have a
   NVIDIA card or are on MacOS, you can omit this option, but the plugins may
   not function correctly.
-- `--bind /path/to/data:/data` is required to access data outside
-  the common locations provided by Apptainer by default (`/home/$USER`). Replace 
-  `/path/to/data` with the actual path to the data directory on your host
-machine
+- add `--bind /path/to/data:/data` if access data outside the common locations
+  provided by Apptainer are required (outside `/home/$USER/` and current working
+directory). Replace `/path/to/data` with the actual path to the data directory
+on your host machine
 
 ### Docker
 A running X server must be accessible on the host. X11 will be present by

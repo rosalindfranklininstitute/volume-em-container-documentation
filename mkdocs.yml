@@ -39,7 +39,7 @@ copyright: The Rosalind Franklin Institute © CC BY-SA 4.0
 nav:
   - Introduction:
     - Overview: intro/overview.md
-    - Why Containers: intro/containers.md
+    - Using Containers: intro/containers.md
   - Software:
     - Napari with Clemreg and Emapanda: software/napari.md
     - Fiji with MoBIE: software/fiji.md
