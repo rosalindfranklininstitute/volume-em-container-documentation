@@ -1,11 +1,11 @@
 # Introduction
 ## Overview
-This documentation provides a guide for using containerised software environments
-hosted by the [Rosalind Franklin Institute](https://rfi.ac.uk/) (RFI) for volume
-electron microscopy (EM) analysis. 
-This work is part of the [Collaborative Computational Project for EM](https://www.ccpem.ac.uk/)
-project, which aims to support the community by unifying and improving access to
-important volume EM software. 
+This documentation provides a guide for using containerised software
+environments hosted by the [Rosalind Franklin Institute](https://rfi.ac.uk/)
+(RFI) for volume electron microscopy (EM) analysis.  This work is part of the
+Collaborative Computational Project for VolumeEM (CCP-volumeEM) project, which
+aims to support the [volume EM community](https://www.volumeem.org/) by unifying and improving access to
+important software. 
 
 ## Quickstart
 If you are completely new to EM software or have little computing
