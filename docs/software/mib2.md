@@ -11,10 +11,8 @@ at the University of Helsinki.
 
 
 !!! info
-    MIB2 is frequently used in conjunction with the SAM2 model for promptable
-    visual segmentation in images and videos. SAM2 does not currently work with our
-    MIB2 container due to Python version incompatibility, but we are looking to 
-    support it in the future.
+    MIB2 is frequently used in conjunction with Segment Anything Model (SAM) from 
+    Meta AI. A SAM2 installation is included with the RFI MIB2 container.
 
 ## Using MIB2
 **Prerequisites**:
@@ -96,11 +94,14 @@ features.
     MIB2 has a large number of keyboard shortcuts which can be viewed
     from `File > Preferences`. 
 
+### Using Segment Anything Model
+The container includes Meta's [Segment Anything Model 2](https://github.com/facebookresearch/segment-anything) (SAM2)
+software. SAM2 can be selected from the tool drop-down in the bottom-left of the GUI. The backbone model and other
+preferences can be set by pressing the Cog icon.
+
+![MIB2 SAM2 Tool](images/mib2-sam2-select.png)
+
 ## Troubleshooting and Support
-### Known Issues
-SAM2 Integration: The current container has a Python version incompatibility
-that prevents SAM2 integration. We are working on resolving this in a future
-release.
 ### Getting help
 If you encounter  problems with the MIB2 container,
 [create an issue](https://github.com/rosalindfranklininstitute/mib-container/issues/new)
