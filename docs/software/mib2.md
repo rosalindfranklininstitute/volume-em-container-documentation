@@ -30,11 +30,7 @@ segmentation features may leverage GPU acceleration if you have an NVIDIA card.
 ### Running the Container
 MIB2 can be started by pulling and running the container using Apptainer:
 ```
-apptainer run \
-    --nv \
-    --env DISPLAY=$DISPLAY \
-    --bind /tmp/.X11-unix:/tmp/.X11-unix \
-    docker://quay.io/rosalindfranklininstitute/mib-container
+apptainer run --nv docker://quay.io/rosalindfranklininstitute/mib-container
 ```
 If you don't have a NVIDIA GPU, omit the `--nv` option. If image data you want
 to access is not in your home directory, you will need to mount the data
