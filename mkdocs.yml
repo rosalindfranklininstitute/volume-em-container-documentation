@@ -45,6 +45,7 @@ nav:
     - Fiji with MoBIE: software/fiji.md
     - IMOD: software/imod.md
     - MiB2: software/mib2.md
+    - Volume Segmantics: software/volume-segmantics.md
   - For System Administrators:
     - Setup Guide: admin/setup.md
 

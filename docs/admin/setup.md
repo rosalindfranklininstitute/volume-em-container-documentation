@@ -204,7 +204,48 @@ application](https://rosalindfranklininstitute.github.io/volume-em-container-doc
 on the MIB2 documentation page with [Sample
 Data](https://zenodo.org/records/7936982) from CLEM-Reg.
 
-## Feedback and License Information
+### Volume Segmantics
+#### Version Information
+Volume Segmantics v0.4.0-beta-2 (April 2026)
+
+#### Repository URLs
+- [Source with
+Dockerfile (GitHub)](https://github.com/rosalindfranklininstitute/volume-segmantics)
+- [Container Image (Quay.io)](https://quay.io/repository/rosalindfranklininstitute/volume-segmantics)
+
+#### Apptainer
+```
+apptainer run --nv docker://quay.io/rosalindfranklininstitute/volume-segmantics
+```
+#### Docker
+```
+docker run \
+    --gpus all \
+    --ipc=host \
+    -v /path/to/data:/data
+    quay.io/rosalindfranklininstitute/volume-segmantics
+```
+#### Test Usage
+Volume Segmantics includes a large number of harness-driven
+tests that can
+be run using the `/opt/volume-segmantics/tests/scripts/run_smoke.py`
+Python script. These must be run from the repository root
+(`/opt/volume-segmantics`, or a fresh clone of the source).
+A basic configuration of tests can be run with
+```
+python tests/scripts/run_smoke.py basic
+```
+and a complete array of tests with (warning: lengthy and memory
+intensive):
+```
+python tests/scripts/run_smoke.py all_qa
+```
+See `run_smoke.py --list` for a list of possible tests and 
+`/opt/volume-segmantics/tests/scripts/README.md` for further
+information.
+
+
+## Container Feedback and License Information
 For questions, suggestions, or feedback you can create an issue on the
 [documentation repository](https://github.com/rosalindfranklininstitute/volume-em-container-documentation)
 or the repository for one of the containers.
