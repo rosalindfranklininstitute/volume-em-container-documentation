@@ -125,7 +125,7 @@ the Fiji[^3] and MoBIE[^4] publications.
 [^3]: Schindelin, J. et al., [Nature Methods, 9, 676–682 (2012)](https://www.nature.com/articles/nmeth.2019)
 [^4]: Pape, C. et al., [Nature Methods 20, 475-476 (2023)](https://www.nature.com/articles/s41592-023-01776-4)
 
-## 📚 Useful Links
+## 🔗 Useful Links
 
 - [Fiji Website](https://fiji.sc/) and [Community Forums](https://forum.image.sc/tag/fiji)
 - [MoBIE Tutorials](https://mobie.github.io/)
