@@ -41,10 +41,11 @@ nav:
     - Overview: intro/overview.md
     - Using Containers: intro/containers.md
   - Software:
-    - Napari with Clemreg and Emapanda: software/napari.md
     - Fiji with MoBIE: software/fiji.md
+    - Ilastik: software/ilastik.md
     - IMOD: software/imod.md
     - MiB2: software/mib2.md
+    - Napari with Clemreg and Emapanda: software/napari.md
     - Volume Segmantics: software/volume-segmantics.md
   - For System Administrators:
     - Setup Guide: admin/setup.md

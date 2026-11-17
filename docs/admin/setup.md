@@ -244,6 +244,42 @@ See `run_smoke.py --list` for a list of possible tests and
 `/opt/volume-segmantics/tests/scripts/README.md` for further
 information.
 
+### ilastik
+
+#### Version Information
+ilastik 1.4.2 (May 2026)
+
+#### Repository URLs
+
+- [Docker file (GitHub)](https://github.com/ccp-volume-em/ilastik)
+- [Container Image (Quay.io)](https://quay.io/repository/ccp-volume-em/ilastik)
+
+#### Apptainer
+```
+apptainer run \
+    --nv \
+    docker://quay.io/ccp-volume-em/ilastik:1.4.2-gpu
+```
+
+#### Docker
+```
+docker run \
+  --gpus all \
+  -v /path/to/data:/data \
+  -e DISPLAY=$DISPLAY \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
+  --device=/dev/dri:/dev/dri \
+  quay.io/ccp-volume-em/ilastik:1.4.2-gpu
+```
+
+Note on remote displays it may be necessary to give non-local access
+to the display by running `xhost +`, or to share the host network
+with the container.
+
+A `<version>-gpu-vgl` is provided which has VirtualGL (for hardware
+acceleration) installed ontop of the `-gpu` image. The default entrypoint 
+for this image launches ilastik with `vglrun`, so you may need to override
+this e.g. if `vglrun` was already run against the entire desktop session. 
 
 ## Container Feedback and License Information
 For questions, suggestions, or feedback you can create an issue on the
