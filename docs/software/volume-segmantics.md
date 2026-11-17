@@ -8,7 +8,8 @@ and then use those trained models to segment larger datasets.
 
 Volume Segmantics was originally developed by Oliver King, Dimitrios
 Bellos and Mark Basham at the Rosalind Franklin Institute in 2022[^1],
-and is now developed and maintained by Avery Pennington.
+and is now developed and maintained by Sam Kersley, Dolapo Adebo 
+and Avery Pennington.
 
 ## Using Volume Segmantics
 **Prerequisites**:
@@ -34,7 +35,7 @@ shared memory, since the default provision (64MB) in Docker is typically
 insufficient for training. It is also necessary to
 create a volume mount to access your data and model configuration
 files (apptainer provides access
-to your home directory by default, but additional locations can be
+the current working directory and you home directory by default, but additional locations can be
 added with `--bind /path/to/data:/data`).
 
 !!! info
@@ -77,14 +78,12 @@ $ cp -r /opt/volume-segmantics/volseg-settings ./
 
 ## Troubleshooting and Support
 ### Getting help
-If you encounter problems using Volume Segmantics, you can
-[create an issue](https://github.com/rosalindfranklininstitute/volume-segmantics/issues/new)
-on the tool's GitHub repository. If the issue relates to a potential
-software bug, crash etc., please share as much information as you can
-regarding your host system (e.g., Nvidia card and driver,
-operating system and container
-runtime), the commands you are trying to run as well as any error
-messages.
+If you encounter problems using Volume Segmantics, you can [create an
+issue](https://github.com/rosalindfranklininstitute/volume-segmantics/issues/new)
+on the tool's GitHub repository. If the issue relates to a potential software
+bug, crash etc., please share as much information as you can regarding your host
+system (e.g., Nvidia card and driver, operating system and container runtime),
+the commands you are trying to run as well as any error messages.
 
 ## Version and license information
 The [RFI container](https://github.com/rosalindfranklininstitute/volume-segmantics-container)
